@@ -1,0 +1,48 @@
+.new-incident-container{
+
+    width: 100%;
+    max-width: 1128px; 
+    height: 100vh;/*altura toda do corpo */
+    margin: 0 auto; /* conteudo sempre centralizado*/
+
+    display: flex;  /* facil para fazer alinahmentos -itens ficam um ao lado do outro*/
+    align-items: center; /* alinha itens verticalmente ao centro */
+    justify-content: center;
+}
+
+.new-incident-container .container{
+
+    width: 100%;
+    padding: 96px; 
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0,1); 
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between; /*joga section pra esquerda e formulario pra diretira, boando um espaço entre eles */
+    align-items: center;
+}
+.new-incident-container .container section{
+    width: 100%;
+    max-width: 300px;
+}
+.new-incident-container .container section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+.new-incident-container .container section p{
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-incident-container .container form{
+    width: 100%;
+    max-width: 450px;
+}
+
+.new-incident-container .container form input,
+.new-incident-container .container form textarea{
+    margin-top: 8px;
+}
+
